@@ -1,0 +1,6 @@
+C:\Users\Harshita Chaudhary\source\repos\WebApiAzureTest\WebApiAzureTest\obj\Debug\netcoreapp2.2\WebApiAzureTest.csprojAssemblyReference.cache
+C:\Users\Harshita Chaudhary\source\repos\WebApiAzureTest\WebApiAzureTest\obj\Debug\netcoreapp2.2\WebApiAzureTest.AssemblyInfoInputs.cache
+C:\Users\Harshita Chaudhary\source\repos\WebApiAzureTest\WebApiAzureTest\obj\Debug\netcoreapp2.2\WebApiAzureTest.AssemblyInfo.cs
+C:\Users\Harshita Chaudhary\source\repos\WebApiAzureTest\WebApiAzureTest\obj\Debug\netcoreapp2.2\WebApiAzureTest.csproj.CoreCompileInputs.cache
+C:\Users\Harshita Chaudhary\source\repos\WebApiAzureTest\WebApiAzureTest\obj\Debug\netcoreapp2.2\WebApiAzureTest.RazorAssemblyInfo.cache
+C:\Users\Harshita Chaudhary\source\repos\WebApiAzureTest\WebApiAzureTest\obj\Debug\netcoreapp2.2\WebApiAzureTest.RazorAssemblyInfo.cs
