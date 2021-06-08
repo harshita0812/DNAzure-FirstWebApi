@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zJol5C2WpAwQsq4Xbzk6oykSxexbznFQj+w3+095pggVqS8HxXVxRsYyfjppPUJ+YWM2+wNcATS8jqKnS2snRw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Harshita Chaudhary\\source\\repos\\WebApiAzureTest\\WebApiAzureTest\\WebApiAzureTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Harshita Chaudhary\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.13\\microsoft.visualstudio.azure.containers.tools.targets.1.10.13.nupkg.sha512"
+  ],
+  "logs": []
+}
