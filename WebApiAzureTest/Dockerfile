@@ -1,22 +1,27 @@
 #See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
 
-FROM mcr.microsoft.com/dotnet/aspnet:3.1 AS base
+FROM mcr.microsoft.com/dotnet/core/sdk:2.2 AS build-env
+
 WORKDIR /app
-EXPOSE 80
-EXPOSE 443
 
-FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
-WORKDIR /src
-COPY ["WebApiAzureTest/WebApiAzureTest.csproj", "WebApiAzureTest/"]
-RUN dotnet restore "WebApiAzureTest/WebApiAzureTest.csproj"
-COPY . .
-WORKDIR "/src/WebApiAzureTest"
-RUN dotnet build "WebApiAzureTest.csproj" -c Release -o /app/build
+# Copy csproj and restore as distinct layers
 
-FROM build AS publish
-RUN dotnet publish "WebApiAzureTest.csproj" -c Release -o /app/publish
+COPY *.csproj ./
 
-FROM base AS final
+RUN dotnet restore
+
+# Copy everything else and build
+
+COPY . ./
+
+RUN dotnet publish -c Release -o out
+
+# Build runtime image
+
+FROM mcr.microsoft.com/dotnet/core/aspnet:2.2
+
 WORKDIR /app
-COPY --from=publish /app/publish .
+
+COPY --from=build-env /app/out .
+
 ENTRYPOINT ["dotnet", "WebApiAzureTest.dll"]
