@@ -1,10 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "zJol5C2WpAwQsq4Xbzk6oykSxexbznFQj+w3+095pggVqS8HxXVxRsYyfjppPUJ+YWM2+wNcATS8jqKnS2snRw==",
+  "dgSpecHash": "C1j76VPnfRdlOsaqNswv8oZfCej6HHzw2HfkO37Ojtgh3f2HpeGbcfGZg3AZWO8l1jfu7YDo0whyNM0Rx+k3qA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Harshita Chaudhary\\source\\repos\\WebApiAzureTest\\WebApiAzureTest\\WebApiAzureTest.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Harshita Chaudhary\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.13\\microsoft.visualstudio.azure.containers.tools.targets.1.10.13.nupkg.sha512"
+    "C:\\Users\\Harshita Chaudhary\\.nuget\\packages\\microsoft.netcore.app\\2.2.0\\microsoft.netcore.app.2.2.0.nupkg.sha512",
+    "C:\\Users\\Harshita Chaudhary\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.2.0\\microsoft.netcore.dotnetapphost.2.2.0.nupkg.sha512",
+    "C:\\Users\\Harshita Chaudhary\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.2.0\\microsoft.netcore.dotnethostpolicy.2.2.0.nupkg.sha512",
+    "C:\\Users\\Harshita Chaudhary\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.2.0\\microsoft.netcore.dotnethostresolver.2.2.0.nupkg.sha512",
+    "C:\\Users\\Harshita Chaudhary\\.nuget\\packages\\microsoft.netcore.platforms\\2.2.0\\microsoft.netcore.platforms.2.2.0.nupkg.sha512",
+    "C:\\Users\\Harshita Chaudhary\\.nuget\\packages\\microsoft.netcore.targets\\2.0.0\\microsoft.netcore.targets.2.0.0.nupkg.sha512",
+    "C:\\Users\\Harshita Chaudhary\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.13\\microsoft.visualstudio.azure.containers.tools.targets.1.10.13.nupkg.sha512",
+    "C:\\Users\\Harshita Chaudhary\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }
